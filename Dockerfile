@@ -14,7 +14,7 @@ RUN npm install -g npm
 COPY . .
 
 # Build the TypeScript code and the application assets
-RUN npm run build
+RUN npm run dev
 
 # Expose port 3000 for the application to listen on
 EXPOSE 3000
