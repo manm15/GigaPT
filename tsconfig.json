@@ -16,6 +16,11 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": ".",
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true
     "paths": {
       "@icon/*": ["./src/assets/icons/*"],
       "@type/*": ["./src/types/*"],
@@ -27,6 +32,9 @@
       "@utils/*": ["./src/utils/*"],
       "@src/*": ["./src/*"]
     }
+    {
+
+
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
