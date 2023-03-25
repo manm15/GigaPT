@@ -20,4 +20,4 @@ RUN yarn dev
 EXPOSE 3000
 
 # Set the default command to run the application
-CMD ["npm", "run", "start"]
+CMD ["npm", "run", "dev"]
